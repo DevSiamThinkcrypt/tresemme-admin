@@ -31,8 +31,20 @@ const schema: SchemaProps = {
 		label: 'Otp',
 		type: 'text',
 	},
+	parlorCode: {
+		label: 'Parlor Code',
+		type: 'number',
+		displayInTable: true,
+		default: true,
+	},
 
-	createdAt: { title: 'Created', type: 'date', sort: true, displayInTable: true, default: true },
+	createdAt: {
+		title: 'Created',
+		type: 'date',
+		sort: true,
+		displayInTable: true,
+		default: true,
+	},
 };
 
 export default schema;

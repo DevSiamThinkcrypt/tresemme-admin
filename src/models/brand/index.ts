@@ -8,10 +8,18 @@ import {
 
 import schema from './schema';
 
-const tableFields = convertToTableFields({
+const petromaxTableFields = convertToTableFields({
 	schema,
 	fields: ['name', 'phone', 'age', 'gender', 'createdAt'],
 });
+const tresemmeTableFields = convertToTableFields({
+	schema,
+	fields: ['name', 'phone', 'age', 'parlorCode', 'createdAt'],
+});
+// const tableFields = convertToTableFields({
+// 	schema,
+// 	fields: ['name', 'phone', 'age', 'gender', 'createdAt'],
+// });
 
 const viewDataModel = convertToViewFields({ schema });
 
@@ -42,7 +50,7 @@ export const tresemmeTable: TableObjectProps = {
 			dataModel: viewDataModel,
 		},
 	],
-	data: tableFields,
+	data: tresemmeTableFields,
 };
 
 export const petromaxTable: TableObjectProps = {
@@ -72,5 +80,5 @@ export const petromaxTable: TableObjectProps = {
 			dataModel: viewDataModel,
 		},
 	],
-	data: tableFields,
+	data: petromaxTableFields,
 };
