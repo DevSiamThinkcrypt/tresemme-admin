@@ -15,14 +15,33 @@ const schema: SchemaProps = {
 		displayInTable: true,
 		default: true,
 	},
-	gender: {
-		label: 'Gender',
+
+	age: {
+		label: 'Age',
 		type: 'text',
 		displayInTable: true,
 		default: true,
 	},
-	age: {
-		label: 'Age',
+	area: {
+		label: 'Area',
+		type: 'text',
+		displayInTable: true,
+		default: true,
+	},
+	currentUsingBrand: {
+		label: 'Current Using Brand',
+		type: 'text',
+		displayInTable: true,
+		default: true,
+	},
+	parlorCode: {
+		label: 'Parlor Code',
+		type: 'number',
+		displayInTable: true,
+		default: true,
+	},
+	gender: {
+		label: 'Gender',
 		type: 'text',
 		displayInTable: true,
 		default: true,
@@ -30,12 +49,6 @@ const schema: SchemaProps = {
 	otp: {
 		label: 'Otp',
 		type: 'text',
-	},
-	parlorCode: {
-		label: 'Parlor Code',
-		type: 'number',
-		displayInTable: true,
-		default: true,
 	},
 
 	createdAt: {
