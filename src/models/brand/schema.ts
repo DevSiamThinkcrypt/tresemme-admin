@@ -28,6 +28,7 @@ const schema: SchemaProps = {
 		displayInTable: true,
 		default: true,
 	},
+
 	currentUsingBrand: {
 		label: 'Current Using Brand',
 		type: 'text',
@@ -36,16 +37,35 @@ const schema: SchemaProps = {
 	},
 	parlorCode: {
 		label: 'Parlor Code',
+		type: 'string',
+		displayInTable: true,
+		default: true,
+	},
+	purchaseQuantity: {
+		label: 'Purchase Quantity',
 		type: 'number',
 		displayInTable: true,
 		default: true,
 	},
-	gender: {
-		label: 'Gender',
-		type: 'text',
+	bpCode: {
+		label: 'BP Code',
+		type: 'string',
 		displayInTable: true,
 		default: true,
 	},
+	address: {
+		label: 'Address',
+		type: 'string',
+		displayInTable: true,
+		default: true,
+	},
+	tentativePurchaseDate: {
+		label: 'Tentative Purchase Date',
+		type: 'date',
+		displayInTable: true,
+		default: true,
+	},
+
 	otp: {
 		label: 'Otp',
 		type: 'text',

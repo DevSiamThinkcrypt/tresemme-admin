@@ -10,7 +10,17 @@ import schema from './schema';
 
 const petromaxTableFields = convertToTableFields({
 	schema,
-	fields: ['name', 'phone', 'age', 'area', 'createdAt'],
+	fields: [
+		'bpCode',
+		'name',
+		'phone',
+		'age',
+		'currentUsingBrand',
+		'area',
+		'address',
+		'tentativePurchaseDate',
+		'createdAt',
+	],
 });
 const tresemmeTableFields = convertToTableFields({
 	schema,
@@ -18,9 +28,8 @@ const tresemmeTableFields = convertToTableFields({
 		'name',
 		'phone',
 		'age',
-		'currentUsingBrand',
+		'PurchaseQuantity',
 		'parlorCode',
-		'gender',
 		'createdAt',
 	],
 });
