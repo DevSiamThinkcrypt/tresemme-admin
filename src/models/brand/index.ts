@@ -28,7 +28,7 @@ const tresemmeTableFields = convertToTableFields({
 		'name',
 		'phone',
 		'age',
-		'PurchaseQuantity',
+		'purchaseQuantity',
 		'parlorCode',
 		'createdAt',
 	],

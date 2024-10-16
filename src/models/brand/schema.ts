@@ -43,7 +43,7 @@ const schema: SchemaProps = {
 	},
 	purchaseQuantity: {
 		label: 'Purchase Quantity',
-		type: 'number',
+		type: 'string',
 		displayInTable: true,
 		default: true,
 	},
