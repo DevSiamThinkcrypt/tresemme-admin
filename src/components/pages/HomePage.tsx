@@ -4,7 +4,7 @@ import React, { FC } from 'react';
 type HomePageProps = {};
 
 const HomePage: FC<HomePageProps> = ({}) => {
-	return <Flex>Mint Cafe Admin</Flex>;
+	return <Flex>Mint Cafe Admin.</Flex>;
 };
 
 export default HomePage;
